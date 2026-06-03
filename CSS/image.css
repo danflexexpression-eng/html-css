@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* begin reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+}
+/* end reset */
+
+/* utility classes start */
+.nowrap{
+    white-space: nowrap;
+}
+
+.offscreen{
+    position: absolute;
+    left: -10000px;
+}
+/* utility classes end */
+body{
+    font-family: "Nunito", sans-serif;
+    min-height: 100vh;
+}
+
+.hero{
+    border-bottom: 2px solid #000;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+
+    background-color: rgb(215, 211, 211);
+    background-image: url('../images/krivitskiy-man-4387677.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.h1{
+    font-size: 500%;
+    color: white;
+    text-shadow: 2px 2px 5px #000;
+}
+.profile-pic-figure{
+    width: 35%;
+}
+.profile-pic-figure img{
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 5px double grey;
+    border-radius: 50%;
+}
+
+.example{
+    padding-left: 20px;
+    margin-top: 1rem;
+    border: 1px solid red;
+}
+
+.example img{
+    width: 25%;
+    height: auto;
+}

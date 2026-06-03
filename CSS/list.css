@@ -1,0 +1,29 @@
+body{
+    padding: 5% 10%;
+    font-size: 2rem;
+    font-family: "Roboto",sans-serif;
+}
+ol{
+    list-style-type: none;
+    padding: 0;
+}
+ul{
+    list-style-type: square;
+    list-style-position: inside;
+    /* list-style:disc url('../images/checkmark.png') inside; */
+}
+
+ul li:nth-child(even){
+    color: red;
+}
+ul li{
+    color: rgb(54, 27, 154);
+}
+
+ul ::marker{
+    color: red;
+    font-weight: 600;
+    font-family: fantasy;
+    font-size: 1em;
+    content: "Only $ >> ";
+}
